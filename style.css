@@ -113,15 +113,109 @@ header#mainHeader div.navSide button {
   cursor: pointer;
 }
 
+
 /* HEADER */
+
+
 div.banner {
   height: 380px;
   width: 100%;
   background: #3bb9e3;
   
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   color: #fff;
+}
+
+div.banner p {
+  margin-top: 10px;
+}
+
+
+/* Profile Bar */
+
+div.profileBar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+div.profileBar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.profileBar .content ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+div.profileBar .content ul li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  position: relative;
+}
+
+div.profileBar .content ul li.active::after { 
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #3bb9e3;
+  
+}
+
+div.profileBar .content ul li span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #667580;
+}
+
+div.profileBar .content ul li strong {
+
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+
+  color: #667580;
+} 
+
+div.profileBar .content ul li.active strong {
+color: #3bb9e3;
+}
+div.profileBar .content .actions {
+  display: flex;
+  
+}
+div.profileBar .content .actions button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 34px;
+  width: 90px;
+  background: transparent;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #3bb9e3;
+
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+
+  margin-right: 20px;
+
+  cursor: pointer;
 }
