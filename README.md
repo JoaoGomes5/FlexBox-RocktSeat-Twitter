@@ -1,6 +1,6 @@
 # Ui Clone Twitter
 
-> This project is a clone of the old Twitter interfacE (UI)
+> This project is a clone of the old Twitter interface (UI)
 
 # Demonstration - Web
 
