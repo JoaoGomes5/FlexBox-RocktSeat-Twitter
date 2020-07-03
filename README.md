@@ -1,4 +1,4 @@
-# FlexBox-RocktSeat-Twitter
+# Ui Clone Twitter
 
 > This project is a clone of the old Twitter interfacE (UI)
 
